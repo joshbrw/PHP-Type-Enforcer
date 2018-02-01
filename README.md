@@ -11,8 +11,6 @@ class UserRegistrar {
         if (!$author instanceof SomeAuthor) {
             throw new \InvalidArgumentException('The author must be an instance of SomeAuthor');
         }
-        
-        ...
     }
 }
 ```
@@ -26,8 +24,6 @@ class UserRegistrar {
     {
         /* Throws \InvalidArgumentException on invalid input */
         Type::enforce($author, SomeAuthor::class);
-        
-        ...
     }
 }
 ```
