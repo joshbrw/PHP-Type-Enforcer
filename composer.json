@@ -1,6 +1,6 @@
 {
     "name": "joshbrw/type-enforcement",
-    "description": "Throw InvalidArgumentExceptions when a Type isn't provided",
+    "description": "Enforce types and throw InvalidArgumentExceptions upon invalid types.",
     "authors": [
         {
             "name": "Josh Brown",
